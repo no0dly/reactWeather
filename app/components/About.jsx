@@ -5,7 +5,7 @@ var About = (props) => {
         <div>
             <h1 className="text-center">About</h1>
 
-            <p>This is an app where you can search the weather in any town you want</p>
+            <p>This is an app build on React where you can search the weather in any town you want</p>
 
             <h5>What did I use to make it alive</h5>
 
