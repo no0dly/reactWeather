@@ -9,20 +9,20 @@ var Nav = React.createClass({
     },
     render() {
         return (
-            <div className="top-bar">
+            <div className="top-bar nav-top">
                 <div className="top-bar-left">
                     <ul className="menu">
                         <li className="menu-text">
                             React Weather App
                         </li>
                         <li>
-                            <IndexLink to="/">Get Weather</IndexLink>
+                            <IndexLink to="/" activeClassName="active">Get Weather</IndexLink>
                         </li>
                         <li>
-                            <Link to="about">About</Link>
+                            <Link to="about" activeClassName="active">About</Link>
                         </li>
                       <li>
-                            <Link to="examples">Examples</Link>
+                            <Link to="examples" activeClassName="active">Examples</Link>
                         </li>
                     </ul>
                 </div>
